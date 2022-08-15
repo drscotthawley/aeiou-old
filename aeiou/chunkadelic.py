@@ -12,7 +12,7 @@ from tqdm.contrib.concurrent import process_map
 import torch
 import torchaudio
 import math
-from .core import is_silence, load_audio, makedir
+from shazbot.core import is_silence, load_audio, makedir
 
 # Cell
 
