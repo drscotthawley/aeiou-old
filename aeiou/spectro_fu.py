@@ -13,8 +13,8 @@ from functools import partial
 from tqdm.contrib.concurrent import process_map
 import torch
 import torchaudio
-from shazbot.core import is_silence, load_audio, makedir
-from shazbot.viz import audio_spectrogram_image
+from .core import is_silence, load_audio, makedir
+from .viz import audio_spectrogram_image
 
 # Cell
 
